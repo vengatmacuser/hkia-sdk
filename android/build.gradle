@@ -51,7 +51,7 @@ repositories {
     google()
     mavenCentral()
     flatDir {
-        dirs 'libs'
+        dirs '../libs', 'libs'
     }
 }
 
