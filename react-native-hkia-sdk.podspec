@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "13.0"
   s.source       = { :git => "https://github.com/vengatmacuser/hkia-sdk.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,c,m,swift}"
+  s.source_files = "ios/*.{h,c,m,swift}"
   s.frameworks   = "UIKit", "Foundation", "CoreNFC", "AVFoundation"
   s.vendored_frameworks = "ios/Frameworks/sbd_check_in.xcframework", "ios/Frameworks/SelfBagDropFramework.xcframework", "ios/Frameworks/OpenSSL.xcframework"
   s.requires_arc = true
