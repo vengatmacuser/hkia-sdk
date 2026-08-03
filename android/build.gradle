@@ -50,9 +50,6 @@ android {
 repositories {
     google()
     mavenCentral()
-    flatDir {
-        dirs 'libs', "${projectDir}/libs"
-    }
 }
 
 dependencies {
