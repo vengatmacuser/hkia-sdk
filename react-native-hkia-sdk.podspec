@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,c,m,swift}"
   s.frameworks   = "UIKit", "Foundation", "CoreNFC", "AVFoundation"
-  s.vendored_frameworks = "libs/ios/sbd_check_in.xcframework", "libs/ios/SelfBagDropFramework.xcframework", "libs/ios/OpenSSL.xcframework"
+  s.vendored_frameworks = "ios/Frameworks/sbd_check_in.xcframework", "ios/Frameworks/SelfBagDropFramework.xcframework", "ios/Frameworks/OpenSSL.xcframework"
   s.requires_arc = true
 
   s.dependency "React-Core"

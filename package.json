@@ -8,7 +8,6 @@
   "sideEffects": false,
   "files": [
     "src",
-    "libs",
     "android",
     "ios",
     "react-native-hkia-sdk.podspec",
