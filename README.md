@@ -140,6 +140,7 @@ Standalone backup reference implementations are stored in the `./docs/integratio
 2. 📄 **[CheckIn Button & Card Example](file:///Users/vengateswaran/Downloads/ThaiAirwaysApp/packages/react-native-hkia-sdk/docs/integration_examples/HKIACheckInButtonExample.tsx)**: Full `HKIACheckInButton.tsx` / `CheckInCard.tsx` component executing Step 2 (Passport Scan & Token Enrollment) and Step 3 (Self BagDrop).
 3. 📄 **[Navigation Registration Example](file:///Users/vengateswaran/Downloads/ThaiAirwaysApp/packages/react-native-hkia-sdk/docs/integration_examples/NavigatorsExample.tsx)**: Full `Navigators.tsx` screen registration for `BoardingPassGeneratorScreen` and `TravelReadyGuide`.
 4. 📄 **[Redux Reducers Combination Example](file:///Users/vengateswaran/Downloads/ThaiAirwaysApp/packages/react-native-hkia-sdk/docs/integration_examples/RootReducerExample.ts)**: Full `root-reducer.ts` slice combination setup for `checkInTokenEnrolment`, `modularSdk`, `journey`, and `hkiaTracking`.
+5. 📄 **[Package Manifest Example](file:///Users/vengateswaran/Downloads/ThaiAirwaysApp/packages/react-native-hkia-sdk/docs/integration_examples/PackageJsonExample.json)**: Full standalone `package.json` manifest for `react-native-hkia-sdk`.
 
 ---
 

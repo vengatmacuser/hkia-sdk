@@ -1,0 +1,47 @@
+{
+  "name": "react-native-hkia-sdk",
+  "version": "1.0.0",
+  "description": "Enterprise-grade, Plug-and-Play React Native SDK plugin for Hong Kong International Airport (HKIA) Check-In and Self BagDrop integration.",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "sideEffects": false,
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "react-native-hkia-sdk.podspec",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "hkia",
+    "check-in",
+    "bag-drop",
+    "bcbp",
+    "passport-nfc",
+    "mrz-scanner",
+    "hong-kong-airport"
+  ],
+  "author": "Thai Airways",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "peerDependenciesMeta": {
+    "@reduxjs/toolkit": {
+      "optional": true
+    },
+    "react-redux": {
+      "optional": true
+    },
+    "redux-saga": {
+      "optional": true
+    }
+  }
+}
