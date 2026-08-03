@@ -44,7 +44,7 @@ class CheckInSDKModule: RCTEventEmitter {
     let timestamp = getCurrentIsoTimestamp()
     let logPayload: [String: Any] = [
       "timestamp": timestamp,
-      "epochMs": Int64(Date().timeIntervalSince1965 * 1000),
+      "epochMs": Int64(Date().timeIntervalSince1970 * 1000),
       "level": "INFO",
       "tag": "HKIA:CheckIn:iOS",
       "step": step,
@@ -104,7 +104,7 @@ class CheckInSDKModule: RCTEventEmitter {
 
   @objc
   func processPassport(_ bcbp: String, resolver resolve: @escaping RCTPromiseResolveBlock, rejecter reject: @escaping RCTPromiseRejectBlock) {
-    let token = "TOK_IOS_\(Int64(Date().timeIntervalSince1965 * 1000))"
+    let token = "TOK_IOS_\(Int64(Date().timeIntervalSince1970 * 1000))"
     self.lastEnrollmentToken = token
     self.emitTelemetry(eventName: "HKIA_NATIVE_SEMI_TOKEN_ENROLLED", message: "Token: \(token)", step: "STEP 3/4: TOKEN_ENROLLMENT")
 
