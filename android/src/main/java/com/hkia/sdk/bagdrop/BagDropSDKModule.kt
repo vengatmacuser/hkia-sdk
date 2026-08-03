@@ -121,7 +121,7 @@ class BagDropSDKModule(reactContext: ReactApplicationContext) : ReactContextBase
                 TokenStore.bcbp = options.getString("bcbp")
             }
 
-            val currentAct = currentActivity
+            val currentAct = reactApplicationContext.currentActivity
             if (currentAct == null || currentAct.isFinishing || currentAct.isDestroyed) {
                 Logger.error(TAG, "Current activity is null or destroyed", null, "ERROR_ACTIVITY")
                 promise.reject("ERR_NO_ACTIVITY", "Current activity is null or unavailable")
