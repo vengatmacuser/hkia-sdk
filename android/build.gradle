@@ -26,6 +26,7 @@ configurations.all {
         force "org.jetbrains.kotlin:kotlin-stdlib:$hostKotlinVersion"
         force "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$hostKotlinVersion"
         force "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$hostKotlinVersion"
+        force "org.jetbrains.kotlin:kotlin-stdlib-common:$hostKotlinVersion"
         force "org.jetbrains.kotlin:kotlin-reflect:$hostKotlinVersion"
     }
 }
