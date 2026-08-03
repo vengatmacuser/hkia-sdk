@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
           package="com.hkia.sdk">
 
     <!-- Permissions required for passport MRZ NFC scanning and BagDrop camera -->
@@ -8,7 +9,9 @@
     <uses-feature android:name="android.hardware.camera" android:required="false" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <application>
+    <application
+        tools:replace="android:allowBackup"
+        android:allowBackup="false">
         <!-- Registered Activity for BagDrop flow -->
         <activity
             android:name="com.thaiairwaysapp.hkia.bagdrop.BagDropActivity"
