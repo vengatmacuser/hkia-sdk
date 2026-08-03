@@ -16,7 +16,7 @@ export interface HKIAErrorCardProps {
   onDismiss?: () => void;
 }
 
-export const HKIAErrorCard: React.FC<HKIAErrorCardProps> = ({
+export const HKIAErrorCard: React.FC<HKIAErrorCardProps> = React.memo(({
   errorReport,
   onRetry,
   onDismiss,
@@ -110,7 +110,7 @@ export const HKIAErrorCard: React.FC<HKIAErrorCardProps> = ({
       </View>
     </View>
   );
-};
+});
 
 const styles = StyleSheet.create({
   container: {
