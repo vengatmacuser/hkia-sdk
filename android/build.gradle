@@ -28,6 +28,13 @@ configurations.all {
         force "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$hostKotlinVersion"
         force "org.jetbrains.kotlin:kotlin-stdlib-common:$hostKotlinVersion"
         force "org.jetbrains.kotlin:kotlin-reflect:$hostKotlinVersion"
+
+        eachDependency { details ->
+            if (details.requested.group == 'org.jetbrains.kotlin' && details.requested.name.startsWith('kotlin-stdlib')) {
+                details.useVersion hostKotlinVersion
+                details.because 'Force matching Kotlin compiler version to eliminate metadata 2.3.0 incompatibility'
+            }
+        }
     }
 }
 
