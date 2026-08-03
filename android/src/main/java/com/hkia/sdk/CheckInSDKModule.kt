@@ -139,7 +139,7 @@ class CheckInSDKModule(reactContext: ReactApplicationContext) : ReactContextBase
                 Logger.warn(TAG, "NFC adapter is disabled or unavailable on this device", "WARN_NFC_UNAVAILABLE")
             }
 
-            val currentAct = currentActivity
+            val currentAct = reactApplicationContext.currentActivity
             if (currentAct == null || currentAct !is AppCompatActivity || currentAct.isFinishing || currentAct.isDestroyed) {
                 Logger.error(TAG, "Current activity is null or not valid AppCompatActivity", null, "ERROR_ACTIVITY")
                 promise.reject("ERR_NO_ACTIVITY", "Current activity is null or not an active AppCompatActivity")
