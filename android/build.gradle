@@ -51,7 +51,7 @@ repositories {
     google()
     mavenCentral()
     flatDir {
-        dirs 'libs'
+        dirs 'libs', "${projectDir}/libs"
     }
 }
 
@@ -60,6 +60,5 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation(name: 'SelfBagDrop', ext: 'aar')
-    implementation(name: 'sbd_check_in', ext: 'aar')
+    implementation fileTree(dir: 'libs', include: ['*.aar'])
 }
