@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AAPT2 Custom Attributes for SelfBagDrop.aar and sbd_check_in.aar layout linking -->
+    
+    <!-- Barcode Scanner attributes -->
+    <attr name="squaredFinder" format="boolean" />
+    <attr name="borderColor" format="color" />
+    <attr name="laserEnabled" format="boolean" />
+    <attr name="borderWidth" format="dimension" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="maskColor" format="color" />
+    <attr name="laserColor" format="color" />
+
+    <declare-styleable name="BarcodeScannerView">
+        <attr name="squaredFinder" />
+        <attr name="borderColor" />
+        <attr name="laserEnabled" />
+        <attr name="borderWidth" />
+        <attr name="cornerRadius" />
+        <attr name="maskColor" />
+        <attr name="laserColor" />
+    </declare-styleable>
+
+    <!-- Dots Indicator & Spring Animation attributes -->
+    <attr name="dotsSpacing" format="dimension" />
+    <attr name="dotsSize" format="dimension" />
+    <attr name="dotsColor" format="color" />
+    <attr name="stiffness" format="float" />
+    <attr name="dampingRatio" format="float" />
+    <attr name="dotsCornerRadius" format="dimension" />
+    <attr name="selectedDotColor" format="color" />
+    <attr name="progressMode" format="boolean" />
+
+    <declare-styleable name="DotsIndicator">
+        <attr name="dotsSpacing" />
+        <attr name="dotsSize" />
+        <attr name="dotsColor" />
+        <attr name="stiffness" />
+        <attr name="dampingRatio" />
+        <attr name="dotsCornerRadius" />
+        <attr name="selectedDotColor" />
+        <attr name="progressMode" />
+    </declare-styleable>
+</resources>
