@@ -74,3 +74,9 @@ dependencies {
 
     implementation fileTree(dir: 'libs', include: ['*.aar'])
 }
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
