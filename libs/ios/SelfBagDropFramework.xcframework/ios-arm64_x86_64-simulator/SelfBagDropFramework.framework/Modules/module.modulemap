@@ -1,0 +1,11 @@
+framework module SelfBagDropFramework {
+  umbrella header "SelfBagDropFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module SelfBagDropFramework.Swift {
+  header "SelfBagDropFramework-Swift.h"
+  requires objc
+}

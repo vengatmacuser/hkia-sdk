@@ -1,0 +1,11 @@
+framework module sbd_check_in {
+  umbrella header "sbd_check_in.h"
+  export *
+
+  module * { export * }
+}
+
+module sbd_check_in.Swift {
+  header "sbd_check_in-Swift.h"
+  requires objc
+}
