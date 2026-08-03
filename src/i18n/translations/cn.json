@@ -1,0 +1,22 @@
+{
+  "title": "香港国际机场 自助值机",
+  "passportScanner": "扫描护照",
+  "bcbpFormTitle": "登机牌详情 (BCBP)",
+  "bagDropTitle": "自助托运行李",
+  "bagDropDesc": "登记生物识别令牌后，请前往自助托运行李柜台。",
+  "readyToFly": "准备起飞",
+  "enrolledToken": "已登记生物识别令牌",
+  "scanSuccess": "护照扫描成功！",
+  "scanFailed": "护照扫描失败，请重试。",
+  "retry": "重试",
+  "dismiss": "关闭",
+  "viewLogs": "查看诊断日志",
+  "copyReport": "复制报告",
+  "technicalDetails": "技术诊断详情",
+  "surname": "姓氏",
+  "givenName": "名字",
+  "pnr": "预订参考编号 (PNR)",
+  "flightNo": "航班号",
+  "seatNo": "座位号",
+  "submit": "提交"
+}

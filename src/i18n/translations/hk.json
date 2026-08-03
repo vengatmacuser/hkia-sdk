@@ -1,0 +1,22 @@
+{
+  "title": "香港國際機場 自助登機",
+  "passportScanner": "掃瞄護照",
+  "bcbpFormTitle": "登機證詳情 (BCBP)",
+  "bagDropTitle": "自助行李託運",
+  "bagDropDesc": "登記生物識別令牌後，請前往自助行李託運機關辦理辦理。",
+  "readyToFly": "準備起飛",
+  "enrolledToken": "已登記生物識別令牌",
+  "scanSuccess": "護照掃瞄成功！",
+  "scanFailed": "護照掃瞄失敗，請重試。",
+  "retry": "重試",
+  "dismiss": "關閉",
+  "viewLogs": "檢視診斷日誌",
+  "copyReport": "複製報告",
+  "technicalDetails": "技術診斷詳情",
+  "surname": "姓氏",
+  "givenName": "名字",
+  "pnr": "預訂參考編號 (PNR)",
+  "flightNo": "航班號碼",
+  "seatNo": "座位號碼",
+  "submit": "提交"
+}

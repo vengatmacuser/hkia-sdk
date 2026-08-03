@@ -1,0 +1,22 @@
+{
+  "title": "HKIA Travel Ready & Self Check-In",
+  "passportScanner": "Scan Passport",
+  "bcbpFormTitle": "Boarding Pass Details (BCBP)",
+  "bagDropTitle": "Self BagDrop",
+  "bagDropDesc": "Proceed to the automated HKIA bag drop kiosk once your BCBP token is enrolled.",
+  "readyToFly": "Ready to Fly",
+  "enrolledToken": "Biometric Token Enrolled",
+  "scanSuccess": "Passport scanned successfully!",
+  "scanFailed": "Passport scan failed. Please try again.",
+  "retry": "Retry",
+  "dismiss": "Dismiss",
+  "viewLogs": "View Diagnostic Logs",
+  "copyReport": "Copy Report",
+  "technicalDetails": "Technical Diagnostic Details",
+  "surname": "Surname / Last Name",
+  "givenName": "Given Name / First Name",
+  "pnr": "Booking Reference (PNR)",
+  "flightNo": "Flight Number",
+  "seatNo": "Seat Number",
+  "submit": "Submit"
+}
